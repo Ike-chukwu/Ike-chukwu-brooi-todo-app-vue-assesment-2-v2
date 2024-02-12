@@ -1,5 +1,4 @@
 const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
-  transpileDependencies: true,
+module.exports = {
   publicPath: "/brooi-todo-app-vue-assesment-2/",
-});
+};
